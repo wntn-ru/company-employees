@@ -1,5 +1,6 @@
 import sqlite3
 
+# запрос для создания таблицы сотрудников
 CREATE_TABLE_QUERY = '''
     CREATE TABLE IF NOT EXISTS employees (
         id INTEGER PRIMARY KEY,
